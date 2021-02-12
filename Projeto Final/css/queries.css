@@ -1,0 +1,392 @@
+@media only screen and (max-width: 1981px) {
+  .mobile-nav-icon {
+    display: none;
+  }
+  .call {
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  /*hero-header*/
+  header .row,
+  .inspiring .row {
+    width: 90%;
+  }
+  .call {
+    left: 20%;
+  }
+
+  /*section-gallery*/
+  #section-gallery {
+    margin-top: 0;
+  }
+
+  /*section-about*/
+  .about .row {
+    width: 90%;
+  }
+  .about figcaption {
+    width: 380%;
+    text-align: left;
+  }
+  .about {
+    margin: 0px 0px 30px 0px;
+  }
+
+  /*section-form*/
+  .section-form {
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .section-form .row {
+    width: 90%;
+  }
+  .section-form input {
+    padding: 8px;
+  }
+  .button-call {
+    margin-left: 72px;
+  }
+
+  /*Footer*/
+  footer{
+    margin-top: 60px;
+  }
+  footer .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 951px) {
+  /*section-form*/
+  .section-form {
+    margin-bottom: 10px;
+  }
+  .button-call {
+    margin-left: 55px;
+  }
+}
+
+@media only screen and (max-width: 901px) {
+  .call {
+    left: 16%;
+  }
+  /*section-inspiring*/
+  .inspiring {
+    height: auto;
+  }
+
+  /*section-depositions*/
+  .depositions blockquote {
+    font-size: 90%;
+    padding-top: 0.5%;
+    line-height: 130%;
+  }
+
+  /*section-about*/
+  .about .row {
+    width: 90%;
+  }
+  .about figcaption {
+    width: 340%;
+    text-align: left;
+  }
+
+  /*section-form*/
+  .section-form .row {
+    width: 90%;
+  }
+  .button-call {
+    margin-left: 45px;
+  }
+
+  /*Footer*/
+  footer .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 845px) {
+  html {
+    font-size: 16px;
+  }
+  /*hero-header*/
+  .diamond {
+    height: 75px;
+  }
+  header li {
+    float: none;
+  }
+  .main-nav li a{
+    display: none;
+  }
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+  .main-nav {
+    float: left;
+  }
+  
+  .main-nav li a:visited,
+  .main-nav li a:link {
+    border: 0;
+    padding: 3px;
+  }
+
+  .together .main-nav li {
+    margin-top: 0px;
+  }
+
+  .together .mobile-nav-icon ion-icon {
+    color: #555;
+  }
+
+  .together .mobile-nav-icon a {
+    margin-top: 10px;
+  }
+
+  .together .logo {
+    margin-top: 10px;
+  }
+
+  .together .main-nav li,
+  .together .main-nav li {
+    padding: 5px 0;
+  }
+
+  .span-1-of-4 {
+    width: 48%;
+  }
+
+  .col {
+    margin: 0 0 2% 0;
+  }
+
+  /*section inspiring*/
+  .texto-inspiring p {
+    font-size: 18px;
+  }
+  .texto-inspiring h4 {
+    font-size: 19px;
+  }
+
+  /*section-form*/
+  .section-form {
+    margin: 0 auto;
+  }
+  
+  .section-form h5 {
+    font-size: 0.65em;
+  }
+  .section-form input {
+    padding: 5px;
+  }
+  .button-call {
+    margin-left: 40px;
+    font-size: 16px;
+  }
+
+  .form-center div {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+  }
+
+  form {
+    height: auto;
+    padding: 0% 35%;
+    width: 205%;
+  }
+  .video {
+    width: 90%;
+    margin: -50px 0px 0px 36px;
+  }
+  .button-call {
+    margin-left: 28%;
+  }
+  video {
+    margin-top: 113px;
+  }
+  /*footer*/
+  footer {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  /*section-about*/
+  .about p,
+  .about figcaption {
+    font-size: 16px;
+  }
+  .about h5 {
+    font-size: 16px;
+  }
+  .about h3 {
+    font-size: 18px;
+  }
+  .divabout {
+    display: block;
+  }
+  .divabout figure {
+    width: 50px;
+    height: 50px;
+  }
+  .divabout ion-icon,
+  .divabout figure img {
+    font-size: 180%;
+    margin-top: 5px;
+  }
+  /*form*/
+  .section-form h5 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  /*footer*/
+  footer nav li {
+    font-size: 17px;
+  }
+  footer p {
+    font-size: 17px;
+  }
+  .presents {
+    margin-right: 80px;
+  }
+}
+
+@media only screen and (max-width: 666px) {
+  /*hero-header*/
+  .call {
+    font-size: 75%;
+  }
+
+  /*about*/
+  #divabout {
+    float: none;
+    width: 100%;
+  }
+  #divabout figure {
+    text-align: center;
+  }
+  #divabout p,
+  #divabout h3 {
+    text-align: center;
+  }
+  .about h3::after {
+    width: 100%;
+  }
+  /*form*/
+  .section-form h5 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  /*about icones*/
+  .divabout {
+    width: 50%;
+    margin: 0;
+  }
+  .divabout figure {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .divabout ion-icon {
+    margin-top: 9px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /*hero-header*/
+  header .call h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 6px;
+  }
+  header .call a{
+    font-size: 15px;
+  }
+
+  /*section-inspiring*/
+  .texto-inspiring {
+    padding: 10px;
+  }
+  .one{
+    padding-top: 70px;
+  }
+  .two{
+    padding-top: 25px;
+  }
+  .two h4,
+  .two p,
+  .one p,
+  .one h4{
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: left;
+  }
+  /*section-form*/
+  form {
+    padding: 0% 15%;
+  }
+  .envia {
+    width: 30%;
+  }
+  .span-2-of-4 {
+    width: 50%;
+  }
+  .video {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .video .button-call {
+    font-size: 12px;
+  }
+  
+  /*footer*/
+  footer .container li,
+  footer .container p{
+    font-size: 13px;
+  }
+  footer .container {
+    display: flex;
+    align-items: center;
+  }
+  footer .container .icon {
+    margin-top: -10px;
+  }
+}
+
+@media only screen and (max-width: 458px){
+  header .call h1 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width:385px){
+  .depositions h3{
+    width: 99%;
+  }
+  header .call h1 {
+    font-size: 18px;
+  }
+  .photo1{
+    width: 100%;
+  }
+  .one{
+    padding-top: 68px;
+  }
+  .two{
+    padding-top: 40px;
+    padding-bottom: 100px;
+  }
+  .photo2{
+    margin: 0 auto;
+    width: 100%;
+  }
+  .presents{
+
+    padding-left:0px;
+  }
+}

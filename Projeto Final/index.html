@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!--Importando script para icones-->
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"> </script>
+  <!-- Importando sistema de grid -->
+  <link rel="stylesheet" type="text/css" href="css/grid.css" />
+  <!-- Importando estilização -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Importando queries-->
+  <link rel="stylesheet" href="css/queries.css">
+  <!-- Importando Fonte -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+    rel="stylesheet">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Mulher</title>
+</head>
+
+<body>
+  <div id="container-principal">
+    <header id="header">
+      <nav>
+        <ul class="main-nav">
+          <div class="row">
+            <img src="img/icones/diamond.png" alt="Logo" class="diamond"/>
+            <li><a href="#depositions" class="d">Depoimentos</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#section-gallery">Galeria</a></li>
+            <li><a href="#inspiring">Inspiri-se</a></li>
+          </div>
+        </ul>
+        <a class="mobile-nav-icon">
+          <ion-icon name="menu" class="ion-navicon-round"></ion-icon>
+        </a>
+      </nav>
+
+      <div class="slider">
+        <div class="slider-controls">
+          <div class="slider-control"></div>
+          <div class="slider-control"></div>
+        </div>
+
+        <div class="slider-width">
+          <div class="slider-item" id="item1"></div>
+          <div class="slider-item" id="item2"></div>
+          <div class="slider-item" id="item3"></div>
+        </div>
+      </div>
+
+      <div class="call">
+        <h1>Descubra seu novo eu</h1>
+        <a href="https://www.natura.com.br/consultoria/sirlene_vieira" class="btn-call" target="blank">Compre agora</a>
+      </div>
+    </header>
+
+    <section class="inspiring" id="inspiring">
+      <div class="row">
+        <div class="col span-2-of-4 box">
+          <figure>
+            <img src="img/pessoas/header2.jpg" alt="foto" class="photo1" />
+          </figure>
+        </div>
+        <div class="col span-2-of-4 box texto-inspiring one">
+          <h4>Invista na sua relação com você mesmo</h4>
+          <p>Seja seu maior compromisso.<br>Não se atrase, nem se deixe pra depois.Você é agora</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col span-2-of-4 box texto-inspiring two">
+          <h4>Cuide-se</h4>
+          <p>Amar a si própio é o início de um romance para a vida toda.</p>
+        </div>
+        <div class="col span-2-of-4 box">
+          <figure>
+            <img src="img/pessoas/woman1.jpg" alt="foto" class="photo2" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-gallery">
+      <ul class="ul-photos clear">
+        <li>
+          <figure class="photo">
+            <img src="img/produtos/nature.jfif" alt="Produtos Natura" title="Produtos Natura" />
+          </figure>
+        </li>
+        <li>
+          <figure class="photo">
+            <img src="img/produtos/sabonete.jpg" alt="Produtos Natura" title="Produtos Natura" />
+          </figure>
+        </li>
+        <li>
+          <figure class="photo">
+            <img src="img/produtos/exclusivo.jpg" alt="Produtos Natura" title="Produtos Natura" />
+          </figure>
+        </li>
+        <li>
+          <figure class="photo">
+            <img src="img/produtos/NaturaEssencial.png" alt="Produtos Natura" title="Produtos Natura" />
+          </figure>
+        </li>
+      </ul>
+      <ul class="ul-photos clear">
+        <li>
+          <figure class="photo">
+            <img src="img/produtos/black.png" alt="Produtos Natura" title="Produtos Natura" />
+          </figure>
+        </li>
+        <li>
+          <figure class="photo">
+            <img src="img/produtos/kaiak.jfif" alt="Produtos Natura" title="Produtos Natura" />
+          </figure>
+        </li>
+        <li>
+          <figure class="photo">
+            <img src="img/produtos/Prestige3.png" alt="Produtos Natura" title="Produtos Natura" />
+          </figure>
+        </li>
+        <li>
+          <figure class="photo">
+            <img src="img/produtos/ekos.jpg" alt="Produtos Natura" title="Produtos Natura" />
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <section class="about" id="about">
+      <div class="row">
+        <div class="col span-2-of-4 box" id="divabout">
+          <figure>
+            <img src="img/pessoas/revenderora.jpg" alt="Foto_pessoal" class="photo3" />
+          </figure>
+          <h3>
+            Sirlene Chagas Vieira
+          </h3>
+          <p>
+            Sou microempreendedora, tenho um espaço físico a 7 anos.<br>
+            Minha missão é levar o carinho e o cuidar, revendendo há mais de 25 anos, pois levar felicidade e autoestima
+            é meu prazer.
+          </p>
+        </div>
+
+        <div class="col span-2-of-4 box divabout">
+          <figure>
+            <ion-icon name="card"></ion-icon>
+            <h5>COMPRA</h5>
+            <figcaption>Vendas online 24 horas pelo site</figcaption>
+          </figure>
+
+          <figure>
+            <img src="img/icones/security.png" alt="icone">
+            <H5>SEGURANÇA</H5>
+            <figcaption>Compre de forma segura</figcaption>
+          </figure>
+
+          <figure>
+            <ion-icon name="logo-whatsapp"></ion-icon>
+            <h5>SUPORTE</h5>
+            <figcaption>Tire todas as suas dúvidas</figcaption>
+          </figure>
+
+          <figure>
+            <img src="img/icones/desenhodiamond.png" alt="icone">
+            <h5>ATENDIMENTO</h5>
+            <figcaption>Selo de excelência</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="depositions" id="depositions">
+      <div class="row">
+        <h3>
+          Mostrando uma forma mais gentil de tratar a pessoa mais importante da sua vida: você.
+        </h3>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-2 box depo">
+          <img src="img/pessoas/homem.jpg" alt="cliente">
+          <h4>Arthur Hoffman </h4>
+          <div class="star">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+          <blockquote>
+            “Loja física com uma infinita diversidade de produtos, sempre supera nossas expectativas, principalmente
+            pelo atendimento e por passar segurança e tranquilidade. Super indicamos.”
+          </blockquote>
+        </div>
+        <div class="col span-1-of-2 box depo">
+          <img src="img/pessoas/mulher.jpg" alt="cliente">
+          <h4>Luiza Gonçalves</h4>
+          <div class="star">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+          <blockquote>
+            “Sempre com excelência na qualidade dos seus produtos e do atendimento. Só temos a agradecer pelo
+            profissionalismo que, há anos, faz a diferença! Sucesso!”
+          </blockquote>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-2 box depo">
+          <img src="img/pessoas/depo1.jpg" alt="cliente">
+          <h4>Helena Vitorino</h4>
+          <div class="star">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+          <blockquote>
+            “Pessoa maravilhosa, humilde.
+            Atendimento diferenciado sempre compro com ela, indido demais.”
+          </blockquote>
+        </div>
+        <div class="col span-1-of-2 box depo">
+          <img src="img/pessoas/homem2.jpg" alt="cliente">
+          <h4>Mathaus Oliveira</h4>
+          <div class="star">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+          <blockquote>
+            “Pessoa maravilhosa, humilde.<br>
+            Atendimento diferenciado sempre compro com ela, indido demais.”
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-form">
+      <div class="row">
+        <div class="col span-2-of-4 box">
+          <form action="index.html" method="post">
+            <h5>Basta cinco passos para deixar sua opnião</h5>
+            <div class="form-center">
+              <div>1</div>
+              <input type="text" placeholder="Nome:" required class="input"><br>
+              <div>2</div>
+              <input type="text" placeholder="Sobrenome:" required class="input"><br>
+              <div>3</div>
+              <input type="email" placeholder="E-mail:" required class="input"><br>
+              <div>4</div>
+              <input type="tel" placeholder="Contato:" required class="input"><br>
+              <div>5</div>
+              <textarea name="opnioes" placeholder="Escreva aqui" maxlength="700" class="text"></textarea><br>
+              <input type="submit" value="Enviar" class="envia">
+            </div>
+          </form>
+        </div>
+        <div class="col span-2-of-4 box video">
+          <video src="video/presentesnatura.mp4" type="video/mp4" controls="controls"></video>
+          <a href="https://www.natura.com.br/c/tudo-em-presentes?consultoria=sirlene_vieira" target="blank"
+            class="button-call">Monte seu
+            presente aqui</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <nav>
+          <ul class="footerlinks">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#inspiring">Inspiri-se</a></li>
+            <li><a href="#depositions">Depoimentos</a></li>
+            <li><a href="#section-gallery">Galeria</a></li>
+            <li><a href="#about">Sobre</a></li>
+          </ul>
+        </nav>
+        <div class="presents">
+          <a href="https://www.natura.com.br/c/tudo-em-presentes?consultoria=sirlene_vieira">
+            <h5>Presenteie quem você ama</h5>
+            <ion-icon name="heart-empty"></ion-icon>
+          </a>
+          <p>
+            Copyright © 2020 | All Rights Reserved
+          </p>
+        </div>
+        <nav>
+          <ul class="icon">
+            <li><a href="https://www.facebook.com/sirlene.chagasvieira" target="blank">
+                <ion-icon class="logoface" name="logo-facebook"></ion-icon>
+              </a></li>
+            <li><a href="https://mail.google.com/mail/u/0/#inbox" target="blank">
+                <ion-icon class="logogmail" name="mail"></ion-icon>
+              </a></li>
+            <li><a href="https://wa.me/5551999004212" target="blank">
+                <ion-icon class="logowats" name="logo-whatsapp"></ion-icon>
+              </a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+  <!--Importando JQUERY-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!--Importando WAYPOINTS-->
+  <script src="js/jquery.waypoints.min.js"></script>
+
+  <!--Importando meu script-->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
