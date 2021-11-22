@@ -17,7 +17,7 @@ Para qualquer um dos casos, será requisitado o desenvolvimento relativo ao fron
 conteúdo (textos e imagens) poderá ser simulado, ou seja, conteúdo retirados de outras
 fontes, desde que com os devidos créditos.
 
-Deve apresentar, no mínimo, os seguintes conteúdos:
+Deve apresentar, no mínimo, os seguintes conteúdos:<br/>
 ● 6 páginas para navegação ou 6 seções em páginas de navegação única;<br/>
 ● 1 formulário que contenha mais de 5 elementos;<br/>
 ● 1 galeria de fotos, além das 6 páginas/seções básicas. Pode ser parte de uma
