@@ -4,8 +4,8 @@ usando HTML5, CSS, JavaScript, JQuery. Utilização da abordagem
 Mobile-First, sendo a definição dos breakpoints das medias queries definidas com base no
 conteúdo.
 
-<h2>Sobre o projeto
-<h2>Requisitos de conteúdo:
+<h2>Sobre o projeto</h2>
+<h2>Requisitos de conteúdo:</h2>
 Indica-se que seja criado um projeto em um cenário real, que possa representar
 efetivamente um contexto de mercado, por exemplo:<br/>
 ● Site institucional ou corporativo;<br/>
