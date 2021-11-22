@@ -18,13 +18,13 @@ conteúdo (textos e imagens) poderá ser simulado, ou seja, conteúdo retirados 
 fontes, desde que com os devidos créditos.
 
 Deve apresentar, no mínimo, os seguintes conteúdos:
-● 6 páginas para navegação ou 6 seções em páginas de navegação única;
-● 1 formulário que contenha mais de 5 elementos;
+● 6 páginas para navegação ou 6 seções em páginas de navegação única;<br/>
+● 1 formulário que contenha mais de 5 elementos;<br/>
 ● 1 galeria de fotos, além das 6 páginas/seções básicas. Pode ser parte de uma
-página ou seção básica.
-● Menu responsivo.
+página ou seção básica.<br/>
+● Menu responsivo.<br/>
 ● 2 plugins em JQuery (carousel, slider, accordion, date picker, galeria de fotos e
-etc…).
+etc…).<br/>
 
 <h2>Requisitos Gerais:</h2>
 O projeto deve ser totalmente responsivo e conter estrutura e visual usando as tecnologias
