@@ -1,18 +1,18 @@
-Projeto Final da Disciplina
+#Projeto Final da Disciplina
 Desenvolvimento de todo front-end um sistema para Internet totalmente responsivo,
-usando HTML5, CSS, JavaScript, JQuery e outras bibliotecas. Utilização da abordagem
+usando HTML5, CSS, JavaScript, JQuery. Utilização da abordagem
 Mobile-First, sendo a definição dos breakpoints das medias queries definidas com base no
 conteúdo.
 
 Sobre o projeto
 Requisitos de conteúdo:
 Indica-se que seja criado um projeto em um cenário real, que possa representar
-efetivamente um contexto de mercado, por exemplo:
-● Site institucional ou corporativo;
-● Hotsite para divulgação de um produto ou evento;
-● Blog de conteúdo relevante;
-● Site de comércio eletrônico;
-● Releitura de sistema/site existente
+efetivamente um contexto de mercado, por exemplo:<br/>
+● Site institucional ou corporativo;<br/>
+● Hotsite para divulgação de um produto ou evento;<br/>
+● Blog de conteúdo relevante;<br/>
+● Site de comércio eletrônico;<br/>
+● Releitura de sistema/site existente<br/>
 Para qualquer um dos casos, será requisitado o desenvolvimento relativo ao front-end. O
 conteúdo (textos e imagens) poderá ser simulado, ou seja, conteúdo retirados de outras
 fontes, desde que com os devidos créditos.
