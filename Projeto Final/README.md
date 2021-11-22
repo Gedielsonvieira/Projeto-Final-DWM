@@ -15,9 +15,9 @@ efetivamente um contexto de mercado, por exemplo:<br/>
 ● Releitura de sistema/site existente<br/>
 Para qualquer um dos casos, será requisitado o desenvolvimento relativo ao front-end. O
 conteúdo (textos e imagens) poderá ser simulado, ou seja, conteúdo retirados de outras
-fontes, desde que com os devidos créditos.
+fontes, desde que com os devidos créditos.<br/>
 
-Deve apresentar, no mínimo, os seguintes conteúdos:<br/>
+<h2>Deve apresentar, no mínimo, os seguintes conteúdos:</h2><br/>
 ● 6 páginas para navegação ou 6 seções em páginas de navegação única;<br/>
 ● 1 formulário que contenha mais de 5 elementos;<br/>
 ● 1 galeria de fotos, além das 6 páginas/seções básicas. Pode ser parte de uma
